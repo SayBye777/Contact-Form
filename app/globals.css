@@ -1,15 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: hsl(148, 38%, 91%);
+  --grey500: hsl(186, 15%, 59%);
   --foreground: #171717;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-grey500: var(--grey500);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-karla: var(--font-karla);
 }
 
 @media (prefers-color-scheme: dark) {
