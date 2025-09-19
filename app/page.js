@@ -41,13 +41,13 @@ export default function Home() {
 
       <form
         onSubmit={handleSubmit}
-        className="p-6 mx-6 w-full lg:w-[600px] bg-white rounded-2xl shadow"
+        className="p-6 mx-6w-full lg:w-[600px] bg-white rounded-2xl shadow"
       >
         <div className="flex flex-col gap-6">
 
           {submitted && (<div className="h-[100px] w-[450px] absolute top-30 right-200 border-white bg-black text-white rounded-md text-center"> 
               <p> Message Sent!</p>
-              <p> Thanks for completing the form. We'll be in touch soon! </p>
+              <p> Thanks for completing the form. We will be in touch soon! </p>
             </div>)}
 
           <h1 className="text-2xl font-bold">Contact Us</h1>
