@@ -175,7 +175,7 @@ export default function Home() {
           <button
             onClick={()=>setSubmitted(true)}
             type="submit"
-            className="py-2 w-full bg-emerald-700 text-white rounded-md hover:bg-emerald-800 transition"
+            className="py-2 w-full bg-emerald-700 text-white rounded-md hover:bg-emerald-800 transition cursor-pointer"
           >
             Submit
           </button>
